@@ -10,21 +10,21 @@ class attributesclass:
     UNDERLINE = '\033[4m'
 
 def GenText(attributes,text):
-    odp = ''
+    generated = ''
     for i in attributes:
-        odp += (eval(f'attributesclass.{i.upper()}'))
-    odp += (text + attributesclass.ENDC)
-    return odp
+        generated += eval(f'attributesclass.{i.upper()}')
+    generated += (text + attributesclass.ENDC)
+    return generated
 
 def Space(x):
     for _ in range(x):
         print()
 
 def GenLine(length):
-    odp = ''
+    generated = ''
     for _ in range(length*5):
-        odp += '━'
-    return odp
+        generated += '━'
+    return generated
 
 def TextOptions():
     Space(2)
@@ -38,3 +38,4 @@ def TextOptions():
     print(GenText(['UNDERLINE'], '- UNDERLINE'))
 
     Space(2)
+TextOptions()
