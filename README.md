@@ -5,7 +5,7 @@ ___
 ### Example usage:
 
 ```python
-print(GenText(['bold','green', 'underline'], 'ConsoleDecorator!'))
+print(GenText(['bold','green', 'underline'], 'TextFX!'))
 ```
 
 ### To print all text options:
