@@ -1,11 +1,13 @@
 # TextFX
-By __[Mnichu](https://github.com/Mnichuz)__
+By __[Mnichuz](https://github.com/Mnichuz)__
 ___
 
 ### Example usage:
 
 ```python
-print(GenText(['bold','green', 'underline'], 'TextFX!'))
+print(Text(['bold','green', 'underline'], 'TextFX!'))
+print(Text(['underline','gray'], f'a*b is {a*b}'))
+print(green('TextFX!'))
 ```
 
 ### To print all text options:
@@ -13,10 +15,22 @@ print(GenText(['bold','green', 'underline'], 'TextFX!'))
 TextOptions()
 ```
 
+
+
 ### All commands:
 * __TextOptions()__
-* __GenText(attributes,text)__
+* __Text(attributes,text)__
 * __Space(x)__
-* __GenLine(length)__
-
+* __Line(length)__
+>
+* purple(text)
+* cyan(text)
+* green(text)
+* yellow(text)
+* orange(text)
+* red(text)
+* gray(text)
+* white(text)
+* bold(text)
+* underline(text)
 ___
