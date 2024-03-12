@@ -68,8 +68,8 @@ def TextOptions():
     print(Text(['ORANGE'], '- ORANGE'))
     print(Text(['RED'], '- RED'))
     print(Text(['GRAY'], '- GRAY'))
+    print(Text(['WHITE'], '- WHITE'))
     print(Text(['BOLD'], '- BOLD'))
     print(Text(['UNDERLINE'], '- UNDERLINE'))
 
     Space(2)
-
