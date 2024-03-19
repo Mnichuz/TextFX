@@ -1,6 +1,6 @@
 class attributesclass:
     PURPLE = '\033[95m'
-    ORANGE = '\033[94m'
+    BLUE = '\033[94m'
     CYAN = '\033[96m'
     GREEN = '\033[92m'
     YELLOW = '\033[93m'
@@ -30,8 +30,8 @@ def green(text):
 def yellow(text):
     return Text(['yellow'], text)
 
-def orange(text):
-    return Text(['orange'], text)
+def blue(text):
+    return Text(['blue'], text)
 
 def red(text):
     return Text(['red'], text)
@@ -65,7 +65,7 @@ def TextOptions():
     print(Text(['CYAN'], '- CYAN'))
     print(Text(['GREEN'], '- GREEN'))
     print(Text(['YELLOW'], '- YELLOW'))
-    print(Text(['ORANGE'], '- ORANGE'))
+    print(Text(['BLUE'], '- BLUE'))
     print(Text(['RED'], '- RED'))
     print(Text(['GRAY'], '- GRAY'))
     print(Text(['WHITE'], '- WHITE'))
